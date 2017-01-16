@@ -53,8 +53,9 @@ public class ParquetSource<T> extends BlockBasedSource<T>
 
     public static ParquetSource<GenericRecord> from(Path path)
     {
-
+        return null;
     }
+
 
     @Override
     protected BlockBasedSource<T> createForSubrangeOfFile(String fileName, long start, long end) {
